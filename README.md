@@ -1,33 +1,35 @@
 # 📚 Book Tracker CLI
 
-**Book Tracker CLI** — це консольний застосунок на Java, який дозволяє користувачам відстежувати книги, які вони читають, планують прочитати або вже прочитали. Зручний інтерфейс командного рядка забезпечує швидкий доступ до основних функцій без зайвих ускладнень.
+**Book Tracker CLI** is a command-line Java application that helps users keep track of the books they are reading, planning to read, or have already completed. It offers a simple, intuitive text-based interface for managing your personal reading list.
 
 ---
 
-## 🚀 Можливості
+## 🚀 Features
 
-- ✅ Додавання нових книг до списку
-- 📖 Перегляд усіх книг
-- 🔁 Оновлення статусу читання (планую, читаю, прочитано, кинуто)
-- 🔍 Пошук книг за назвою, автором або жанром
-- ❌ Видалення книг
-- 📊 Перегляд статистики читання
-- 💾 Збереження та завантаження книг з файлу
-
----
-
-## 🧠 Статуси читання
-
-- `PLANNED` — запланована до читання
-- `READING` — зараз читається
-- `COMPLETED` — прочитана
-- `ABANDONED` — кинута
+- ✅ Add new books to your reading list
+- 📖 View all books
+- 🔁 Update the reading status (Planned, Reading, Completed, Abandoned)
+- 🔍 Search books by title, author, or genre
+- ❌ Delete books from the list
+- 📊 View reading statistics
+- 💾 Save and load books to/from a file
 
 ---
 
-## 🏗️ Встановлення та запуск
+## 🧠 Reading Statuses
 
-> ⚠️ Потрібно мати встановлену Java 17 або новішу.
+- `PLANNED` — You intend to read this book
+- `READING` — You are currently reading it
+- `COMPLETED` — You’ve finished reading it
+- `ABANDONED` — You’ve stopped reading it
+
+---
+
+## 🏗️ Getting Started
+
+> ⚠️ Requires Java 17 or later
+
+### Clone and Run
 
 ```bash
 git clone https://github.com/your-username/book-tracker-cli.git
