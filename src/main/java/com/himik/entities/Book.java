@@ -2,13 +2,14 @@ package com.himik.entities;
 
 import java.time.LocalDate;
 
+
 public class Book {
 
-    String title;
-    String author;
-    String genre;
-    String notes;
-    LocalDate addedDate;
-    LocalDate finishedDate;
-    ReadingStatus status;
+    private String title;
+    private String author;
+    private String genre;
+    private String notes;
+    private LocalDate addedDate;
+    private LocalDate finishedDate;
+    private ReadingStatus status;
 }
